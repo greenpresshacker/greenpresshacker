@@ -1,0 +1,1 @@
+javascript:(function(){var%20GTBoxId=setInterval(function(){if(document.getElementById('gt-src-dtl-iframe')){clearInterval(GTBoxId);}else{var%20SrcTxt=document.documentElement.innerHTML;if(SrcTxt.length>3000){SrcTxt=SrcTxt.substr(0,3000);}window.open('https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text='+encodeURIComponent(SrcTxt));}},3000);})();
